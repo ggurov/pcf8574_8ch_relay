@@ -1,2 +1,23 @@
 pcf8574 connected to 8channel relay board controlled via i2c off a raspberry pi and libwiring
+---------------------------------------------------------------------------------------------
+this lets you have control over 8 high current channels using just usb power and raspberry pi + additional $22  dollars or so.
+
+build with:
+
+make
+
+
+
+ch_control 5 1 - turns on channel 5
+
+ch_control 6 0 - turns off channel 6
+
+super simple
+
+
+i2c to 8bit gpio board: http://www.amazon.com/Expansion-PCF8574-Expander-Evaluation-Development/dp/B00DUO17J6/ = $10
+8 channel relay board:  http://www.amazon.com/Kootek-Channel-Module-Arduino-Raspberry/dp/B00C8O9KHA/ = $12
+
+
+the jumper on the relay board should be in JD-VCC position
 
